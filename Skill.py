@@ -13,5 +13,3 @@ class Skill:
         self.follow_through = follow_through
         self.stamina_consume = stamina_consume
         self.moving_range = moving_range
-    
-    

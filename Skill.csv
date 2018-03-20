@@ -1,0 +1,5 @@
+id,attack_rate,attack_range,waiting_time,follow_through,stamina_consume,moving_range
+1,1,1.5,5,5,0,0
+2,1.5,1,15,10,100,0
+3,1.2,0.8,5,5,0,0
+4,2,2,30,20,100,0
