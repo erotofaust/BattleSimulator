@@ -32,7 +32,7 @@ class Character:
                 
     def defenceFrom(self, attack, min_range, max_range):
         if min_range < self.position < max_range:
-            damage = attack - self.defence
+            damage = attack * (1/(1 + self.defence/100))
             self.hp = self.hp-damage
             print("%s는 %d의 데미지를 입었다! 남은 체력은 %d!" %(self.name, damage, self.hp))
         else:

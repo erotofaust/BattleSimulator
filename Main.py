@@ -14,12 +14,12 @@ if __name__ == "__main__":
 
     
 
-    for i in range(0,10):
+    for i in range(0,30):
         b = True
             
     
         char1 = Character.Character(1, character_data, -3)
-        char2 = Character.Character(4, character_data, 3)
+        char2 = Character.Character(2, character_data, 3)
         
         while(b):
             
